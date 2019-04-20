@@ -10,7 +10,7 @@ function bfs(rootNode, vertices, edges){
    markDistanceAndPredecessor(nextNode, adj)
    adj.map(vertex => queue.push(vertex))
  }
-
+ return array
 }
 
 
